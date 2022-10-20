@@ -1,0 +1,54 @@
+.user-profile-container{
+    display: flex;
+
+}
+
+
+.user-profile-section{
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 20vw;
+    position: sticky;
+    /* background-color:red; */
+    height: 85vh;
+}
+
+.iamge-section{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    /* background-color: chartreuse; */
+    /* overflow: hidden; */
+    border-radius: 50%;
+
+
+}
+
+
+#avtar-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border:1px solid gray;
+    
+}   
+
+#avtar-upload-button{
+    position: absolute;
+    bottom: 1.2rem;
+    transform: translateX(-100%);
+    text-align: center;
+    width: 100%;
+    height: 2rem;
+    /* background-color: rgba(0, 0, 0.0.7); */
+    background-color: grey;
+    color:white;
+    line-height: 1rem;
+}
+
+#avtar-image-input{
+    display: none;
+}
